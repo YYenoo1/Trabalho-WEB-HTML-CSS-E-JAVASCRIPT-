@@ -1,0 +1,66 @@
+
+/* Configuração geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+/* Formulário */
+form {
+    background-color: white;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px gray;
+}
+
+/* Textos dos campos */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Campos de digitação */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: darkblue;
+}
+
+/* Mensagens do sistema */
+#mensagem {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
